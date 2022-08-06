@@ -1,0 +1,65 @@
+class HelloWorld {
+  static void Main() {
+      float Hindi=85,English=85,Math=85,Science=81,SocialScience=89,
+      Drawing=90,Total ;
+      float Percentage;
+      Total=Hindi+English+Math+Science+SocialScience
+      +Drawing;
+      Percentage=(Total/600)*100;
+    System.Console.WriteLine("Total Mark="+Total);
+    //System.Console.WriteLine("Average of Total Mark="+Average);
+    System.Console.WriteLine("Percentage="+Percentage);
+    
+    if(Percentage>=90)
+    System.Console.WriteLine("Pass First Division With Gread A + Honers");
+   else if( Percentage>=80)
+    System.Console.WriteLine("Pass First Division With Gread A");
+      else if( Percentage>=70)
+    System.Console.WriteLine("Pass First Division With Gread B");
+      else if( Percentage>=60)
+    System.Console.WriteLine("Pass First Division"); 
+    else if( Percentage>=50)
+    System.Console.WriteLine("Pass Second Division");
+      else if( Percentage>=34)
+    System.Console.WriteLine("Pass Third  Division ");
+    else
+    System.Console.WriteLine("Fail");
+  }
+}
+
+2.Positive and even odd
+
+class Demo{
+    static void Main()
+    {
+        int num1=-5;
+        int num2=11;
+        if(num1>0)
+        System.Console.WriteLine("Positive Number");
+        else
+        System.Console.WriteLine("Negative Number");
+        if(num2%2==0)
+        System.Console.WriteLine("Even Number");
+        else
+        System.Console.WriteLine("Odd Number");
+    }
+}
+
+3.Valid and Invalid Voter age and ceti:
+
+class Demo{
+    static void Main()
+    {
+        char cetizion='I';
+        int age=08;
+        if(cetizion=='I')
+        if(age>=18)
+        System.Console.WriteLine("Valid Voter");
+        else
+        System.Console.WriteLine("Invalid Voter due to age");
+        else
+        System.Console.WriteLine("Invalid voter due to cetizin ");
+    }
+}
+
+

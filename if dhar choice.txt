@@ -1,0 +1,18 @@
+class Demo
+{
+    public static void Main()
+    {
+        int num1=10;
+        int num2=20;
+        char choice='*';
+        int result=0;
+        if (choice == '+')
+        result=num1+num2;
+        else if (choice == '-')
+        result=num1-num2;
+        else
+        System.Console.WriteLine("Default Value");
+        System.Console.WriteLine("result is"+result);
+        
+    }
+}

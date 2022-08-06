@@ -1,0 +1,13 @@
+1.print table of 2
+
+class demo{
+ static void Main(){
+     int i=0;
+     System.Console.WriteLine("Print tne table of 2");
+     while(i<=10)
+     {
+     System.Console.WriteLine((i*2));
+     i++;
+     }
+}
+}

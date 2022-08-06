@@ -1,0 +1,29 @@
+class demo{
+    static void Main(){
+        System.Console.Write("Enter the Roll NO: ");
+        int Roll_NO=System.Convert.ToInt32 (System.Console.ReadLine());
+        System.Console.Write("Enter the Student Name: ");
+        string Name=System.Console.ReadLine();
+        System.Console.Write("Enter the mark of Hindi: ");
+        int Hindi=System.Convert.ToInt32 (System.Console.ReadLine());
+        System.Console.Write("Enter the mark of English : ");
+        int English=System.Convert.ToInt32 (System.Console.ReadLine());
+        System.Console.Write("Enter the mark of Math : ");
+        int Math=System.Convert.ToInt32 (System.Console.ReadLine());
+        int total=Hindi+English+Math;
+        System.Console.WriteLine("Total Mark: " +total);
+        float percentage= total/300f*100;
+        System.Console.WriteLine("Percentage: " +percentage+"%");
+        
+        if(percentage>=75)
+        System.Console.WriteLine("Result: Pass, I-DIV with DISTINCTION");
+        else if(percentage>=60)
+        System.Console.WriteLine("Result: Pass, I-DIV");
+        else if(percentage>=50)
+        System.Console.WriteLine("Result: Pass, II-DIV");
+        else if(percentage>=35)
+        System.Console.WriteLine("Result: Pass, III-DIV");
+        else 
+        System.Console.WriteLine("Result: Fail");
+    }  
+    }

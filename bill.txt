@@ -1,0 +1,97 @@
+class demo{
+    static void Main(){
+        System.Console.Write("Enter the Employ Id: ");
+        int emp_ID=System.Convert.ToInt32(System.Console.ReadLine());
+        System.Console.Write("Enter the Employ Name: ");
+        string Name=System.Console.ReadLine();
+        System.Console.Write("Enter the Department: ");
+        string  dep= System.Console.ReadLine();
+        
+        System.Console.WriteLine("1.Selary ");
+        System.Console.WriteLine("2.Account ");
+        System.Console.WriteLine("3.Purchase");
+        
+         System.Console.Write("Enter the Choice: ");
+        int  choice=System.Convert.ToInt32(System.Console.ReadLine());
+        
+        System.Console.Write("Enter the Basic Selary : ");
+        int basic=System.Convert.ToInt32(System.Console.ReadLine());                   
+        
+        System.Console.WriteLine("                TA   DA   HRA   IT   Gross ");
+        double TA, DA, HRA, IT, T, Gross;
+        
+        switch(choice)
+        {
+            case 1 :
+                        
+                          break;
+                          
+            case 2:
+                        
+                            break;
+                            
+            case 3:
+                          
+                          break; 
+                          
+            
+            default :
+                         
+                          break;
+            
+        }
+        
+   
+                      if(basic>=1000 && basic<2000)
+                          {
+                            TA= basic/100;
+                            DA= basic/100 * 1.5;
+                            HRA= basic/100*2;
+                            T= basic+TA+ DA+ HRA;
+                            IT=T/100;
+                            Gross= basic+TA+ DA+ HRA-IT;
+                            System.Console.WriteLine( "Selary Deatiles: "+TA+"  "+DA+"  "+HRA+"  "+IT+"  "+Gross );
+                          }
+                          
+                          if(basic>=2000 && basic<3000)
+                          {
+                            TA= basic/100*1.5;
+                            DA= basic/100 * 2;
+                            HRA= basic/100*2.5;
+                            T= basic+TA+ DA+ HRA;
+                            IT=T/100;
+                            Gross= basic+TA+ DA+ HRA-IT;
+                            System.Console.WriteLine( "Account Details: "+TA+"  "+DA+"  "+HRA+"  "+IT+"  "+Gross );
+          
+                          }
+                          if(basic>=3000 && basic<=6000)
+                          {
+                            TA= basic/100*2;
+                            DA= basic/100 * 2.5;
+                            HRA= basic/100*3;
+                            T= basic+TA+ DA+ HRA;
+                            IT=T/100;
+                            Gross= basic+TA+ DA+ HRA-IT;
+                            System.Console.WriteLine( "Purchase Details: "+TA+"  "+DA+"  "+HRA+"  "+IT+"  "+Gross );
+          
+                          }
+                        if(basic>6000)  
+                          {
+                            TA= basic/100*10;
+                            DA= basic/100 * 10;
+                            HRA= basic/100*10;
+                            T= basic+TA+ DA+ HRA;
+                            IT=T/100*10;
+                            Gross= basic+TA+ DA+ HRA-IT;
+                            System.Console.WriteLine( "Other "+TA+"  "+DA+"  "+HRA+"  "+IT+"  "+Gross );
+          
+                          }
+                         
+                          if(basic<1000) 
+                          {
+                              System.Console.WriteLine("invalid selary");
+                          }
+                             
+                             
+    }
+} 

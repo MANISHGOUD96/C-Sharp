@@ -1,0 +1,25 @@
+1.table in reverse order(100-1)
+class demo{
+ static void Main(){
+     int i=100;
+     System.Console.WriteLine("Print number in reverse order");
+     do
+     {
+     System.Console.WriteLine(i);
+     i--;
+     }while(i>=1);
+}
+}
+
+2.table in(1-100):
+class demo{
+ static void Main(){
+     int i=1;
+     System.Console.WriteLine("Print number (1to100)=");
+     do
+     {
+     System.Console.WriteLine(i);
+     i++;
+     }while(i<=100);
+}
+}

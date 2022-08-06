@@ -1,0 +1,29 @@
+class HelloWorld {
+  static void Main() {
+      float Hindi=100,English=100,Math=100,Science=100,SocialScience=100,
+      Drawing=100,Total ;
+      float Average,Percentage;
+      Total=Hindi+English+Math+Science+SocialScience
+      +Drawing;
+      Average=Total/600;
+      Percentage=Average*100;
+    System.Console.WriteLine("Total Mark="+Total);
+    System.Console.WriteLine("Average of Total Mark="+Average);
+    System.Console.WriteLine("Percentage="+Percentage);
+    
+    if(Percentage>=90)
+    System.Console.WriteLine("Pass First Division With Gread A + Honers");
+   else if( Percentage>=80)
+    System.Console.WriteLine("Pass First Division With Gread A");
+      else if( Percentage>=70)
+    System.Console.WriteLine("Pass First Division With Gread B");
+      else if( Percentage>=60)
+    System.Console.WriteLine("Pass First Division"); 
+    else if( Percentage>=50)
+    System.Console.WriteLine("Pass Second Division");
+      else if( Percentage>=34)
+    System.Console.WriteLine("Pass Third  Division ");
+    else
+    System.Console.WriteLine("Fail");
+  }
+}
