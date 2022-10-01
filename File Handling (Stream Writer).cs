@@ -9,7 +9,7 @@ using System.Text;
 
 class Demo
 {
-    static void Main1321()
+    static void Main()
     {
         FileStream fs = new FileStream("d:\\Demo.text", FileMode.Append);
         StreamWriter sw = new StreamWriter(fs);
